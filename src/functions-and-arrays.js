@@ -186,6 +186,8 @@ function doesWordExist(words, word) {
   }
 
   const dictionary = createMap(words);
+  //I know that it's not the best desition (It took to much memory),
+  //but I just want to try to work with such a structure as object(dictionary in this case) :)
 
   return dictionary[word] ? true : false;
 }
